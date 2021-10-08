@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    
     public void onBtnClick(View view) {
         TextView firstName = findViewById(R.id.txtFirstName);
         EditText edtFirstName = findViewById(R.id.edtFirstName);
